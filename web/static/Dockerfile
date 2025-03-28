@@ -1,4 +1,4 @@
 FROM nginx 
-RUN rm -rf /usr/share/ngnix/html/index.html
-ADD static /usr/share/ngnix/html/
+RUN rm -rf /usr/share/nginx/html/index.html
+ADD static /usr/share/nginx/html/
  
